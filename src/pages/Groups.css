@@ -76,5 +76,3 @@ tbody tr.clickable-row:hover {
 tbody tr.clickable-row:active {
     transform: scale(0.99); /* Slight press effect when clicked */
 }
-
-

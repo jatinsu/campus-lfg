@@ -61,9 +61,20 @@
     justify-content: center;
     align-items: center;
     transition: opacity 0.3s ease;
-  }
+    cursor: pointer;
+}
 
 .image-container:hover .overlay {
     opacity: 1;
+}
+
+.image-container {
+    cursor: pointer;
+}
+
+/* Restore clickable styling */
+.link {
+    color: white;
+    text-decoration: none;
 }
   

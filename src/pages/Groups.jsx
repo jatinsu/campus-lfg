@@ -1,11 +1,10 @@
 import './Groups.css'
 import images from '../../backend/mock/gameData.json'
 import groupsData from "../../backend/mock/groupsData.json"
+import { useParams } from 'react-router-dom';
 
-const Groups = (gameName) => {
-  
-  // delete it in prod  
-  gameName = "Valorant";
+const Groups = () => {
+  const { gameName } = useParams();
 
   const handleRowClick = () => {
     window.location.href = '.';
